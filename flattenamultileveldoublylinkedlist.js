@@ -11,6 +11,8 @@ class Node {
 }
 
 
+//O(n) solution that uses a dfs traversal to visit each node once.
+
 function flatten(head) {
     if (!head) {
         return null
